@@ -1,0 +1,85 @@
+/*table of contents links*/
+
+.toc {
+    color: #f3bf00;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+/*subject groupings*/
+
+.block {
+    background-color: #282828;
+    padding: 5px 20px;
+    margin: 20px;
+}
+/*examples inline - - - > does not work*/
+
+.demo-code {
+    text-align: left;
+    text-indent: 20px;
+    color: #ee3c3c;
+}
+.flex-container {
+    display: flex;
+}
+.section {
+    margin-bottom: 60px;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    display: flex;
+}
+/*compatibility with old browsers*/
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/*visited link*/
+
+a:visited {
+    color: #5b560a;
+    text-decoration: none;
+}
+/*mouse over link*/
+
+a:hover {
+    color: #1a75ff;
+    text-decoration: none;
+}
+/*document whole*/
+
+body {
+    padding: 30px 120px;
+    font-family: monospace;
+    max-width: 2000px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+    background-color: #1e1e1e;
+}
+/*headings*/
+
+h1 {
+    text-align: center;
+    background-color: #f3bf00;
+    color: #ee3c3c;
+    height: 43px;
+    border-radius: 10px;
+}
+/*sub-headings*/
+
+h2 {
+    text-align: left;
+    color: #1a75ff;
+}
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */

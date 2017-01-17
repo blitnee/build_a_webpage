@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brittnee's First Webpage</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <!--enables cross-language compatibility-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--enables proper cross-mobile responsiveness-->
+</head>
+
+<body>
+    <!--intro section-->
+    <div class="block">
+        <div>
+            <h1 class="title">What is this?</h1>
+        </div>
+        <div class="section">
+            <h2 class="heading">This Is My First Webpage!</h2>
+            <p>
+                This webpage demonstrates the things I have learned about HTML and CSS as of June 14, 2016.
+            </p>
+        </div>
+        <div>
+            <h2 class="heading">Purpose</h2> 
+            <p>
+                Over time, my web dev knowledge will evolve and expand. I am recording my learning in projects to:
+            </p>
+            <ol>
+                <li>Practice what I've learned</li>
+                <li>Look back and tangibly see my progress</li>
+                <li>Sharing what I've learned with others</li>
+            </ol>
+        </div>
+    </div>
+    <!--table of contents is linked to other items in the body. I have tried to give at least one example of each of the skills I have learned so far.-->
+    <div class="block">
+        <div>
+            <h1 class="title">Table of Contents</h1>
+        </div>
+        <div class="toc">
+            <a href="#html1" class="toc"><b>1. HTML</b></a>
+            <ol>
+                <li><a href="#html1.1" class="toc">What is HTML?</a>
+                </li>
+                <li><a href="#html1.2" class="toc">What is an element?</a>
+                </li>
+                <li><a href="#html1.3" class="toc">What is a tag?</a>
+                </li>
+                <li><a href="#html1.4" class="toc">What are attributes?</a>
+                </li>
+                <li><a href="#html1.5" class="toc">What do 'inline' and 'block' mean?</a>
+                </li>
+                <li><a href="#html1.6" class="toc">What is the difference between 'span' and 'div'?</a>
+                </li>
+                <li><a href="#html1.7" class="toc">How do I structure an HTML document?</a>
+                </li>
+            </ol>
+            <a href="#css2" class="toc"><b>2. CSS</b></a>
+            <ol>
+                <li><a href="#css2.1" class="toc">What is CSS?</a>
+                </li>
+                <li><a href="#css2.2" class="toc">How does CSS manage HTML?</a>
+                </li>
+                <li><a href="#css2.3" class="toc">Where can I write CSS?</a>
+                </li>
+                <li><a href="#css2.4" class="toc">How do I attach a stylesheet?</a>
+                </li>
+                <li><a href="#css2.5" class="toc">What is a box model?</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!--In the links following, I couldn't get the links to not have an underline or be white when unvisited.-->
+    <div class="block">
+        <div>
+            <h1 class="title" id="html1">HTML</h1>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.1">What is HTML?</h2>
+            <p>
+                <a href="http://www.w3schools.com/html/html_intro.asp">HTML</a> stands for Hyper Text Markup Language. It is a set of syntax that allows videos, text, images, and music to exist on a webpage. HTML creates everything from text content and markup to links to other references and links to other pages.
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.2">What is an element?</h2>
+            <p>
+                <a href="http://www.w3schools.com/html/html_elements.asp">Elements</a> specify sections in code and determine the organization of an HTML document.
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.3">What is a tag?</h2>
+            <p>
+                A <a href="http://www.w3schools.com/tags/ref_byfunc.asp">tag</a> is a sort-of key starting or ending an element in HTML. Tags are most often created through an opening and closing structure. This is an example of standard tag structure:
+                <br>
+                <br>
+                <code class="demo-code">&lt;p&gt;stuff&lt;/p&gt;</code>
+                <br>
+                <br>
+                <br> Some types of tags do not need to be closed. This is called a <a href="http://www.456bereastreet.com/archive/201005/void_empty_elements_and_self-closing_start_tags_in_html/">void tag</a>. Void tags are represented like this:
+                <br>
+                <br>
+                <code class="demo-code">other stuff&lt;br&gt;</code>
+
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.4">What are attributes?</h2>
+            <p>
+                An <a href="http://www.w3schools.com/html/html_attributes.asp">attribute</a> typically goes inside of a tag and gives a value to the noted element. Attributes <em>always</em> hold a value. An attribute is used to classify and modify an HTML element in some way. This is an example of how you might use an attribute:
+                <br>
+                <br>
+                <code class="demo-code">&lt;tag <b>attr</b>="<b>value</b>"&gt;contents&lt;/tag&gt;</code>
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.5">What do 'inline' and 'block' mean?</h2>
+            <p>
+                An <a href="http://www.w3schools.com/html/html_blocks.asp">inline</a> tag is an item that that is applied <em>in the line</em> of code. A <a class="demo-code"><code>&lt;br&gt;</code></a> is an example of an inline element. It creates a break in the line of text. A <a href=" http://www.w3schools.com/html/html_blocks.asp">block</a> tag is an item that creates a separate block of text. <code class="demo-code">&lt;p&gt;</code> is an example of a block tag.
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.6">What is the difference between 'span' and 'div'?</h2>
+            <p>
+                A <a href="http://www.w3schools.com/tags/tag_span.asp" class="demo-code"><code>&lt;span&gt;</code></a> is an inline element whereas a <a href="http://www.w3schools.com/tags/tag_div.asp" class="demo-code"><code>&lt;div&gt;</code></a> is a block element. This means that when you use <code>&lt;div&gt;</code> in a line of text, it will create a <em>separate</em> block with the text which it includes.
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="html1.7">How do I structure an HTML document?</h2>
+            <p> Below is an example of how to structure an <a href="http://www.w3schools.com/html/html_xhtml.asp">HTML Document</a>:
+                <br>
+                <br>
+                <a class="demo-code">
+                    <!-- Pretty sure the "&nbsp;" is wrong and should be done in CSS... -->
+                    <code>&lt;!DOCTYPE html&gt;
+                    <br> &lt;html&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;head&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;&lt;/title&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/head&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;body&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;p&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/p&gt;
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/body&gt;
+                    <br> &lt;/html&gt;</code>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="block">
+        <div>
+            <h1 class="title" id="css2">CSS</h1>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="css2.1">What is CSS?</h2>
+            <p>
+                <a href="http://www.w3schools.com/css/css_intro.asp">CSS</a> stands for Cascading Style Sheets. A <a href="http://www.w3schools.com/css/css_howto.asp">style sheet</a> is used to apply a styled look and formatting to elements in an HTML document. CSS can be described as the rules for a webpage.
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="css2.2">How does CSS manage HTML?</h2>
+            <p>
+                CSS manages HTML elements through <a href="http://www.w3schools.com/cssref/css_selectors.asp">selectors</a> and <a href="http://www.w3schools.com/css/css_syntax.asp">declarations</a>. A selector is a title attached to an element that assigns the element to a <a href="http://www.w3schools.com/cssref/sel_class.asp">class</a> or <a href="http://www.w3schools.com/cssref/sel_id.asp">ID</a>. An ID is a unique identifier that is applied to a particular element in the HTML document. A class refers to a group of specified elements in HTML which are intended to be styled together. A declaration is a statement or rule that can be applied to elements in HTML through tags, class, or id. Declarations are the rules that element properties follow to create a style. To summarize, declarations are lists of properties and assigned values under a selector which create the style of an HTML document.
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="css2.3">How do I apply CSS?</h2> There are three ways to apply CSS to your HTML document.
+            <ol>
+                <li>You can write CSS in the <a class="demo-code"><code>&lt;head&gt;</code></a> section of your HTML. This method works best for small projects.</li>
+                <li>You can link your HTML to a separate CSS file. This is method works well for larger projects.</li>
+                <li>You <em>can</em> write your CSS inline with your HTMl. However, this method is not recommended because you will need to duplicate a large amount of code.</li>
+            </ol>
+        </div>
+        <div class="section">
+            <h2 class="heading" id="css2.4">How do I attach a stylesheet?</h2>
+            <p>
+                In the beginning I had a lot of difficulty attaching style sheets. But with every failed attempt, I learned what not to do. At first I included a very detailed file chain into my HTML to attach the style sheet. I didn't know that <em>if the syle sheet is in the same folder as the html file, you shouldn't put a file chain</em>.
+            </p>
+        </div>
+        <div>
+            <h2 class="heading" id="css2.5">What is a box model?</h2>
+            <p>
+                I thought this concept seemed fairly straightforward, but it still takes me a minute to figure out which item I need to adjust. I've listed some quick notes for reference. The size of your element is the sum of the content, padding, and border (L border + L padding + content + R padding + R border).
+            </p>
+        </div>
+        <div class="flex-container">
+            <div><img src="img/box_model.jpg" alt="box model image" style="width:auto;height:auto;">
+            </div>
+            <div>
+                <h4> Quick Definitions:</h4>
+                <ul>
+                    <li>Content - image or text that appears on the website, other layers protect it</li>
+                    <li>Padding - clears an area around the content, affected by the content box</li>
+                    <li>Border - around the content and padding, inherited from the color property of the box</li>
+                    <li>Margin - clears an area around the border, transparent, space between boxes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
