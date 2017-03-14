@@ -1,12 +1,13 @@
 #Build a Webpage
 
-_A demonstration of HTML classes, CSS, and Structured Documents_
+_A demonstration of HTML Classes, CSS, and Structured Documents_
 
-Created a webpage documenting my knowledge of HTML and CSS (June 14, 2016). 
+##About
+Created a webpage documenting my knowledge of HTML and CSS (June 14, 2016).
+This project was exciting for me because it launched my discovery of web development.
 
-This project was exciting for me because it launched the discovery of my passion for web development.
+##How to View
+1. Open `index.html` in your browser.
 
-##Get Up and Running
-Double click on `index.html` to view this webpage in your browser.
 
 
